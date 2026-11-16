@@ -1,40 +1,45 @@
-# Somnath Singha
+<p align="center">
+  <img src="assets/profile-header.svg" alt="Somnath Singha — Python Backend &amp; Applied AI" width="100%" />
+</p>
 
-**Senior Software Engineer | Python Backend & Applied AI**
+<p align="center">
+  <a href="#watchdesk">Featured work</a> &nbsp;·&nbsp;
+  <a href="#public-code">Public code</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/amisomnath/">LinkedIn</a>
+</p>
 
-I build Python APIs, retrieval-based applications and automation workflows with FastAPI, Django REST Framework, LLM integrations and asynchronous processing. Based in Kolkata, India, with 5+ years of software development experience.
+**I build Python backends that connect application data with practical AI features.**
 
-## Selected projects
+I'm a Senior Software Engineer with 5+ years in software development. My work spans API and database design, retrieval workflows, asynchronous processing, testing and Linux/AWS deployment.
 
-### WatchDesk
+## WatchDesk
 
-My personal computer-vision project for account-based laptop monitoring. A native Python/OpenCV agent works with FastAPI and Django REST services and a Next.js portal for activation, consent-based enrollment and warning review.
+**Featured personal project · Computer vision + backend engineering**
 
-[Read the WatchDesk project overview](projects/watchdesk.md) · Private implementation
+An account-based laptop-monitoring system connecting a **native Python/OpenCV agent**, **FastAPI and Django REST services**, and a **Next.js portal**.
 
-### [Hospital Management RAG](https://github.com/amisomnath/hospital-management-rag)
+- **Owner-controlled workflows:** activation, consent-based enrollment, monitoring settings and warning review.
+- **Engineering behind the workflow:** account isolation, camera-health telemetry, durable event queues and bounded local alerts.
 
-Educational FastAPI capstone combining CRUD APIs, JWT authentication, document ingestion, Sentence Transformer embeddings, PostgreSQL/pgvector retrieval and REST/WebSocket chat.
+[Explore the project overview →](projects/watchdesk.md) &nbsp;·&nbsp; Implementation maintained privately.
 
-### [Medical RAG Chatbot](https://github.com/amisomnath/medical-rag-chatbot)
+## Public code
 
-Educational document-question-answering application using FastAPI, Groq, local embeddings, a persistent vector index and streaming WebSocket responses.
+| Project | What to explore |
+| --- | --- |
+| **[Hospital Management RAG](https://github.com/amisomnath/hospital-management-rag)** | **Backend + RAG teaching capstone.** FastAPI management APIs, JWT authentication, SQLAlchemy/Alembic, document ingestion, pgvector retrieval and REST/WebSocket chat. |
+| **[Medical RAG Chatbot](https://github.com/amisomnath/medical-rag-chatbot)** | **Streaming document Q&A.** Local embeddings, persistent vector retrieval and Groq responses streamed through FastAPI WebSockets. Educational scope. |
+| **[SocialHub](https://github.com/amisomnath/SocialHub)** | **REST API foundations.** Authentication, posts and tags, author checks, throttling, filtering, pagination and block-list management. |
+| **[AcademicMinds](https://github.com/amisomnath/AcademicMinds)** | **Relational modeling.** Student, teacher and subject records, transactional enrollment and relationship queries through Django REST APIs. |
 
-### More backend examples
+## How I work
 
-- [SocialHub](https://github.com/amisomnath/SocialHub): Django REST Framework APIs for authentication, tagged posts, access checks, filtering and pagination.
-- [AcademicMinds](https://github.com/amisomnath/AcademicMinds): Django REST Framework APIs for student enrollment and school-related data relationships.
+**Design the backend.** Model data, define API boundaries and implement permission-aware workflows.  
+**Connect the AI.** Build ingestion and retrieval pipelines, LangGraph workflows, structured outputs and evidence checks.  
+**Support delivery.** Write pytest unit/API tests, handle background processing and troubleshoot deployments and integrations.
 
-## Engineering focus
-
-- API and database design, external integrations and background processing.
-- Document ingestion, vector retrieval and source-grounded RAG applications.
-- LangChain integrations and LangGraph workflows.
-- Backend architecture, testing, Linux deployment and operational troubleshooting.
-- Shared Python project templates, co-developed with three colleagues.
-- Python/FastAPI training, technical assessments and constructive feedback.
-
-## Core tools
+<details>
+<summary><strong>Tools I work with</strong></summary>
 
 | Area | Tools |
 | --- | --- |
@@ -42,6 +47,10 @@ Educational document-question-answering application using FastAPI, Groq, local e
 | Applied AI | LLM APIs, LangChain, LangGraph, Sentence Transformers, pgvector, Qdrant, FAISS |
 | Delivery | pytest, Git, Docker, AWS, Linux, NGINX |
 
-## Connect
+</details>
 
-For engineering discussions, senior Python backend/applied AI opportunities, or remote educational mentoring, [connect with me on LinkedIn](https://www.linkedin.com/in/amisomnath/).
+## Beyond implementation
+
+At Webskitters, I contribute to backend architecture and shared Python project templates. I also deliver Python/FastAPI internship training and support technical assessments, grading and developer feedback.
+
+For engineering collaboration and technical mentoring, [connect with me on LinkedIn →](https://www.linkedin.com/in/amisomnath/).
